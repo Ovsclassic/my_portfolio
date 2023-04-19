@@ -1,0 +1,67 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: #21325e;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 700;
+  color: #e9d35b;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  padding-left: 40px;
+  font-size: 17px;
+}
+
+.links a:hover {
+  color: #e9d35b;
+  transition: all 0.3s ease;
+}
+
+.toggleButton {
+  display: none;
+}
+
+.toggleButton svg {
+  font-size: 30px;
+}
+
+.toggleButton button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .links {
+    display: none;
+  }
+
+  .toggleButton {
+    display: block;
+  }
+}
