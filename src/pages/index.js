@@ -67,7 +67,7 @@ export default function Home() {
                 >
                   <FaLinkedin />
                 </a>
-                <a href="mailto:">
+                <a href="mailto:okunoyevictor@gmail.com">
                   <MdOutlineEmail />
                 </a>
                 <a
@@ -103,18 +103,30 @@ export default function Home() {
             {ProjectList.map((project) => {
               return (
                 <div key={project.id}>
-                  <div className={styles.projectItem}>
-                    <a href={project.githubUrl}>
+                  <a
+                    href={project.website}
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    <div className={styles.projectItem}>
                       <Image
                         src={project.image}
-                        alt={`Thumbnail for ${project.name}`}
+                        alt={`Image for ${project.name}`}
                         fill
                         className={styles.projectImage}
                       />
-                    </a>
-                  </div>
+                    </div>
+                  </a>
 
                   <p>{project.name}</p>
+                  <a
+                    href={project.githubUrl}
+                    rel="noreferrer noopener"
+                    target="_blank"
+                    style={{ color: "#fff" }}
+                  >
+                    <FaGithub />
+                  </a>
                 </div>
               );
             })}
