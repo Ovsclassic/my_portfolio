@@ -2,8 +2,9 @@
   width: 100%;
   height: 100px;
   background: #21325e;
-  position: sticky;
+  position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 .container {
@@ -27,6 +28,22 @@
   justify-content: center;
   color: white;
   transition: all 0.3s ease;
+}
+
+.linksMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+  flex-direction: column;
+  gap: 2rem;
+}
+.linksMenu a {
+  color: white;
+  text-decoration: none;
+  padding-left: 40px;
+  font-size: 17px;
 }
 
 .links a {
@@ -56,9 +73,34 @@
   cursor: pointer;
 }
 
+.menu {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: #21325e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.close {
+  transform: translateX(-100%);
+}
+.open {
+  transform: translateX(0px);
+}
+
 @media only screen and (max-width: 600px) {
   .links {
     display: none;
+  }
+
+  .navbar {
+    position: relative;
   }
 
   .toggleButton {
