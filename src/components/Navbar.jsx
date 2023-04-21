@@ -11,29 +11,43 @@ function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
   return (
-    <div className={`${roboto_mono.className} ${styles.navbar}`}>
-      <div className={styles.container}>
-        <Link href="/" className={styles.logo}>
-          VO
-        </Link>
+    <>
+      <div className={`${roboto_mono.className} ${styles.navbar}`}>
+        <div className={styles.container}>
+          <Link href="/" className={styles.logo}>
+            VO
+          </Link>
 
-        <div className={styles.links}>
+          <div className={styles.links}>
+            <a href="#about"> About </a>
+            <a href="#projects"> Projects </a>
+            <a href="#experience"> Experience </a>
+          </div>
+
+          <div className={styles.toggleButton}>
+            <button
+              onClick={() => {
+                setExpandNavbar((prev) => !prev);
+              }}
+            >
+              {expandNavbar ? <FaTimes className="closeIcon" /> : <FaBars />}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className={`${roboto_mono.className} ${styles.menu} ${
+          expandNavbar ? styles.open : styles.close
+        }`}
+      >
+        <div className={styles.linksMenu}>
           <a href="#about"> About </a>
           <a href="#projects"> Projects </a>
           <a href="#experience"> Experience </a>
         </div>
-
-        <div className={styles.toggleButton}>
-          <button
-            onClick={() => {
-              setExpandNavbar((prev) => !prev);
-            }}
-          >
-            {expandNavbar ? <FaTimes className="closeIcon" /> : <FaBars />}
-          </button>
-        </div>
       </div>
-    </div>
+    </>
   );
 }
 
