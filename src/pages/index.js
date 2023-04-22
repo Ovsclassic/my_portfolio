@@ -50,15 +50,15 @@ export default function Home() {
           <div className={styles.info}>
             <h2>About Me</h2>
             <p>
-              Hi, I'm Victor Okunoye, a frontend developer passionate about
+              Hi, I&apos;m Victor Okunoye, a frontend developer passionate about
               creating visually appealing and user-friendly websites. I have
-              experience with HTML, CSS, JavaScript, React and I'm always
+              experience with HTML, CSS, JavaScript, React and I&apos;m always
               looking to expand my knowledge. Outside of coding, I enjoy video
               editing and listening to music, which have taught me the
-              importance of attention to detail and problem-solving. If you're
-              looking for a passionate frontend developer who is committed to
-              collaborating with others and delivering high-quality work, let's
-              connect
+              importance of attention to detail and problem-solving. If
+              you&apos;re looking for a passionate frontend developer who is
+              committed to collaborating with others and delivering high-quality
+              work, let&apos;s connect
             </p>
             <div className={styles.connect}>
               <h3>Let&apos;s connect!</h3>
