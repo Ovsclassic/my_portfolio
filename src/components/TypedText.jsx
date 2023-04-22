@@ -28,12 +28,5 @@ export default function TypedText() {
     };
   }, []);
 
-  return (
-    <p
-      style={{
-        whiteSpace: "pre",
-      }}
-      ref={el}
-    />
-  );
+  return <p ref={el} />;
 }
