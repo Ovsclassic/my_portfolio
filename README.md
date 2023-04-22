@@ -1,38 +1,29 @@
+<h1>My Advanced Portfolio Webpage</h1>
+
+<p>This is my personal portfolio webpage designed with React, JavaScript, Next.js, and beautiful hover designs. The webpage showcases my skills, projects, and experience to potential clients and employers with an added touch of interactivity and eye-catching animations.</p>
+<h3>Technologies Used</h3>
+<ul> 
+<li>React: A popular JavaScript library for building user interfaces.</>
+<li>Javascript: A powerful scripting language used to add interactivity and functionality to web pages.</li>
+<li>Next.js for server-side rendering and efficient performance</li>
+<li>CSS: The standard styling language used to define the layout and appearance of web pages.</li>
+<li>HTML: The standard markup language used to create web pages.</li>
+</ul>
+<h3>Features</h3>
+<ul>
+<li>A home page with an introduction and links to other sections</li>
+<li>An about me page that introduces myself and potentials<li>
+<li>A section to contact and connect with me</li>
+<li>A skills section with a list of skills and proficiency levels, and animated hover effects</li>
+<li>A projects section with information about my past and current projects, and beautiful hover designs</li>
+<li>An experience section with details about my work experience and education</li>
+
+<h3><a href="https://victorovs-portfolio.netlify.app/">Click Here To View and Test!</a></h3>
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
