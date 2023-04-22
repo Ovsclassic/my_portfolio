@@ -41,22 +41,25 @@ export default function Home() {
 
             <TypedText />
           </div>
+          <div className={styles.herosimg}>
+            <Image src="/assets/contact.svg" alt="" width={300} height={300} />
+          </div>
         </div>
 
         <div className={styles.about} id="about">
           <div className={styles.info}>
             <h2>About Me</h2>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
-              fuga asperiores sit esse repellat rem cumque laborum blanditiis
-              necessitatibus odit? Consequatur velit voluptatem necessitatibus
-              deserunt molestias nesciunt veritatis minima expedita. Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Quasi culpa magni
-              tempora reprehenderit consectetur totam consequuntur vero
-              perferendis, velit, ad vel et id, libero beatae aliquam non
-              corrupti possimus facere?
+              Hi, I'm Victor Okunoye, a frontend developer passionate about
+              creating visually appealing and user-friendly websites. I have
+              experience with HTML, CSS, JavaScript, React and I'm always
+              looking to expand my knowledge. Outside of coding, I enjoy video
+              editing and listening to music, which have taught me the
+              importance of attention to detail and problem-solving. If you're
+              looking for a passionate frontend developer who is committed to
+              collaborating with others and delivering high-quality work, let's
+              connect
             </p>
-
             <div className={styles.connect}>
               <h3>Let&apos;s connect!</h3>
               <div className={styles.prompt}>
@@ -91,7 +94,7 @@ export default function Home() {
               <li>React</li>
               <li>NextJS</li>
               <li>Tailwind CSS</li>
-              <li>Bootstrap</li>
+              <li>Firebase</li>
             </ul>
           </div>
         </div>
