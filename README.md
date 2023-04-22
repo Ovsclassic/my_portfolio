@@ -12,11 +12,12 @@
 <h3>Features</h3>
 <ul>
 <li>A home page with an introduction and links to other sections</li>
-<li>An about me page that introduces myself and potentials<li>
+<li>An about me page that introduces myself and potentials</li>
 <li>A section to contact and connect with me</li>
 <li>A skills section with a list of skills and proficiency levels, and animated hover effects</li>
 <li>A projects section with information about my past and current projects, and beautiful hover designs</li>
 <li>An experience section with details about my work experience and education</li>
+</ul>
 
 <h3><a href="https://victorovs-portfolio.netlify.app/">Click Here To View and Test!</a></h3>
 
