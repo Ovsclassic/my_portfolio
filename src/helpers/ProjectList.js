@@ -11,7 +11,7 @@ export const ProjectList = [
     name: "Notes App",
     image: "/assets/proj2.png",
     skills: "Javascript, React, CSS3, HTML5",
-    githubUrl: "https://github.com/Ovsclassic/CompanyBranding",
+    githubUrl: "https://github.com/Ovsclassic/NoteApp",
     website: "https://note-app-6pks.vercel.app/",
     id: "1",
   },

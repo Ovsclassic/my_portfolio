@@ -58,7 +58,7 @@ export default function Home() {
               importance of attention to detail and problem-solving. If
               you&apos;re looking for a passionate frontend developer who is
               committed to collaborating with others and delivering high-quality
-              work, let&apos;s connect
+              work, let&apos;s connect.
             </p>
             <div className={styles.connect}>
               <h3>Let&apos;s connect!</h3>
