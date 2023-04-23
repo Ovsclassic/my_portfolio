@@ -100,7 +100,7 @@ export default function Home() {
         </div>
 
         <div className={styles.projects} id="projects">
-          <h2>Projects</h2>
+          <h2>My Projects</h2>
 
           <div className={styles.projectsList}>
             {ProjectList.map((project) => {
