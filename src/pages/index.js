@@ -154,7 +154,7 @@ export default function Home() {
                 Bachelor&apos;s Degree (Second Class Upper)
               </h4>
 
-              <p> History a International Studies </p>
+              <p> History and International Studies </p>
             </VerticalTimelineElement>
 
             <VerticalTimelineElement
